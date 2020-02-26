@@ -1,10 +1,8 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    mocha (0.9.8)
-      rake
+    mocha (1.11.2)
     oauth (0.4.3)
-    rake (0.8.7)
     shoulda (2.11.3)
     yajl-ruby (0.7.8)
 
@@ -12,7 +10,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mocha
+  mocha (>= 0.9.8)
   oauth
   shoulda
   yajl-ruby
+
+BUNDLED WITH
+   1.17.3
